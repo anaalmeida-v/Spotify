@@ -77,9 +77,8 @@ button:hover {
 /**
     Topo
 */
-
-.menu  {
-    background: #000; 
+nav{
+    background: #000;
     position: relative;
 }
 
@@ -93,20 +92,14 @@ button:hover {
     clear: both;
 }
 
-.topo{
-    float: right;
-    width: 80%;
-}
-
 .logo{
-    margin-top: 25px;
-    float: left;
-    width: 20%;
+    background: #000;
+    margin-top: 2em;
     color: #fff;
-    margin-left: 160px;
+    margin-left: 0px;
     font-family: 'CircularStd-book';
     font-size: 16px;
-    width: 132px;
+    width: 129px;
     height: 40px;
     text-decoration: none;
 }
@@ -535,7 +528,7 @@ button:hover {
     display: block;
     width: 24px;
     height: 24px;
-    color: #fff;
+    color: #000;
 }
 
 .redes a:hover .icon {
@@ -553,3 +546,37 @@ button:hover {
 .facebook{
     background:  url(../imagens/facebook.svg), currentColor;
 }
+
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        position: fixed;
+        background-color: #000;
+        width: 50vw;
+        height: 100vh;
+        z-index: 5;
+        right: 0;
+        top: 0;
+        transition: all 0.5s ease-in-out;
+        transform: translateX(200vw);
+        align-items: left;
+        display: flex;
+    }
+    body.active .navbar-menu {
+        transform: translateX(0);
+    }
+    .navbar-menu .navbar-nav {
+        flex-wrap: wrap;
+    }
+    .navbar-menu .navbar-nav li {
+        width: 100%;
+    }
+
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+  }

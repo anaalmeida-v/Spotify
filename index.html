@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/icons.css">
+
 </head>
 
 <body>
 
-    <nav><!--Navegação-->
-        <div class="row"><!--Row-->
-            <div class="listas-padrao  menu">
-                <div class="col-md-6">
-                    <img class="logo" src="imagens/logo-topo.png">Logo
-                </div>
+    <header>
+        <nav class="navbar navbar-expand navbar-black fixed-top"><!--Navegação-->
+            <div class="container"><!--Container-Nav-->
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="imagens/logo-topo.png">
+                </a>
 
-                <div class="col-md-6 topo">
-                    <div class="row">
-                        <ul class="col-12">
-                            <li class="col-2">
-                                <a href="#">Premium</a>
-                            </li>
+                <button class="navbar-toggler btn-menu" type="button" data-toggle="collapse" aria-controls="navbar-menu"
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon-menu"></span>
+                </button>
 
-                            <li class="col-2">
-                                <a href="#">Suporte</a>
-                            </li>
+                <div class="navbar-collapse collapse listas-padrao topo menu" id="nav-principal">
+                    <div class="navbar-menu justify-content-start">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link"><span class="nav1">Premium</span></a></li>
 
-                            <li class="col-2">
-                                <a href="#">Baixar</a>
-                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link nav2">Suporte</a></li>
 
-                            <li class="col-2">
-                                <a href="#">Inscever-se</a>
-                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link nav3">Baixar</a></li>
 
-                            <li class="col-2">
-                                <a href=".">Entrar</a>
-                            </li>
+                            <li class="nav-item bg-success divisor"></li>
+
+                            <li class="nav-item"><a href="#" class="nav-link">Inscrever-se</a></li>
+
+                            <li class="nav-item"><a href="." class="nav-link">Entrar</a></li>
                         </ul>
                     </div>
-                </div>   
-            </div> 
-        </div><!--/Row-->
-    </nav><!--/Navegação-->
-        
+                </div>
+            </div>
+            </div><!--/Container-Nav-->
+        </nav><!--/Navegação-->
+    </header>
+
     <div class="conteudo-principal"><!--Conteúdo Principal-->
         <div class="container">
             <div class="bloco-rosa titulo paragrafo-medio">
@@ -55,35 +57,28 @@
 
                 <div>
                     <p>
-                    Curta músicas sem anúncios, ouça no modo offline e muito mais. 
-                    Cancele quando quiser.
+                        Curta músicas sem anúncios, ouça no modo offline e muito mais.
+                        Cancele quando quiser.
                     </p>
                 </div>
 
                 <div class="botoes-inicio">
 
-                    <button class="botao-padrao">
-                        experimente 3 meses por r$ 0,00
-                    </button>
+                    <button class="botao-padrao">experimente 3 meses por r$ 0,00</button>
 
-                    <button class="botao-padrao botaorosa">
-                        ver planos
-                    </button>
-                    
+                    <button class="botao-padrao botaorosa">ver planos</button>
+
                 </div>
 
                 <div class="paragrafo-pequeno">
-                    <p>
-                        Somente no plano Individual. Depois, é só R$ 19,90/mês. <u>Sujeito a Termos e Condições.</u> Disponível apenas para quem nunca
-                        usou o Premium. A oferta termina em 31/12/2022.
-                    </p>
+                    <p>Somente no plano Individual. Depois, é só R$ 19,90/mês. <u>Sujeito a Termos e Condições.</u>
+                        Disponível apenas para quem nunca usou o Premium. A oferta termina em 31/12/2022.</p>
                 </div>
-                    
+
             </div>
 
-            <div class="banner">
-                <img src="imagens/banner.jpeg">
-            </div>
+            <div class="banner"><img src="imagens/banner.jpeg"></div>
+
         </div>
     </div><!--/Conteúdo Principal-->
     <div class="porque-premium"><!--PorqueSerPremium-->
@@ -105,7 +100,7 @@
                     <img class="imagens-config" src="imagens/sound-icon.png">
                     <h4>Ouça na ordem que quiser.</h4>
                     <p>Qualquer música em qualquer ordem.</p>
-                </li> 
+                </li>
                 <li>
                     <img class="imagens-config" src="imagens/headphone.svg">
                     <h4>Qualidade de som superior.</h4>
@@ -114,73 +109,69 @@
             </ul>
         </div>
     </div><!--/PorqueSerPremium-->
-        
+
 
     <div class="bloco-tres"><!--EscolhaPlanoPremium-->
         <div class="container-bloco-tres">
             <h2>Escolha seu plano Premium</h2>
-            <p  class="ouca">
+            <p class="ouca">
                 Ouça sem limites no seu celular, alto-falante e em outros dispositivos.
             </p>
 
             <ul class="marcas">
-                    <li>
-                        <img src="imagens/visa.svg">
-                    </li>
-                    <li>
-                        <img src="imagens/master.svg">
-                    </li>
-                    <li>
-                        <img src="imagens/amex.svg">
-                    </li>
-                    <li>
-                        <img src="imagens/elo.svg"  width="29" height="20">
-                    </li>
-                    <li>
-                        <img src="imagens/hipercard.svg" width="29" height="20">
-                    </li>
-                    <li><u>+ outros 11</u></li>
+
+                <li><img src="imagens/visa.svg"></li>
+
+                <li><img src="imagens/master.svg"></li>
+
+                <li><img src="imagens/amex.svg"></li>
+
+                <li><img src="imagens/elo.svg" width="29" height="20"></li>
+
+                <li><img src="imagens/hipercard.svg" width="29" height="20"></li>
+
+                <li><u>+ outros 11</u></li>
             </ul>
             <div class="colunas">
                 <div class="coluna primeira-coluna">
-                        <div class="primeiracaixa">
-                            <h4 class="bloco-azul">3 meses grátis</h4>
-                            <h4 class="bloco-branco">Pagamento único disponível</h4>
-                            <h3 class="plano-qtd-pessoas">Individual</h3>
-                            <p class="preco-planos">R$ 19,90/mês após o período da<br> oferta<br>
+                    <div class="primeiracaixa">
+                        <h4 class="bloco-azul">3 meses grátis</h4>
+                        <h4 class="bloco-branco">Pagamento único disponível</h4>
+                        <h3 class="plano-qtd-pessoas">Individual</h3>
+                        <p class="preco-planos">R$ 19,90/mês após o período da<br> oferta<br>
                             1 conta</p>
-                            <hr>
-                        </div>
+                        <hr>
+                    </div>
 
-                        <div class="segundacaixa">
-                            <ul class="seta">
-                                <li>&#10003;</li>
-                                <li>&#10003;</li> 
-                                <li>&#10003;</li> 
-                                <li>&#10003;</li> 
-                            </ul>
-                        </div>
+                    <div class="segundacaixa">
+                        <ul class="seta">
+                            <li>&#10003;</li>
+                            <li>&#10003;</li>
+                            <li>&#10003;</li>
+                            <li>&#10003;</li>
+                        </ul>
+                    </div>
 
 
-                        <div class="segundacaixa">
-                            <ul class="elemento-lista">
-                                <li> Ouça músicas sem <br>anúncios</li>
-                                <li> Ouça em qualquer lugar-<br>até quando estiver offline</li>
-                                <li> Ouça músicas na ordem<br> que quiser</li>
-                                <li> Faça um plano pré-pago ou<br> uma assinatura</li>
-                            </ul>
+                    <div class="segundacaixa">
+                        <ul class="elemento-lista">
+                            <li> Ouça músicas sem <br>anúncios</li>
+                            <li> Ouça em qualquer lugar-<br>até quando estiver offline</li>
+                            <li> Ouça músicas na ordem<br> que quiser</li>
+                            <li> Faça um plano pré-pago ou<br> uma assinatura</li>
+                        </ul>
 
-                        </div>
+                    </div>
 
-                        <div class="terceiracaixa">
-                            <button class="botao-padrao comeceagora"> comece agora </button>
+                    <div class="terceiracaixa">
+                        <button class="botao-padrao comeceagora"> comece agora </button>
 
-                            <p class="paragrafo-final">Somente no plano individual. Depois, é só<br>
+                        <p class="paragrafo-final">Somente no plano individual. Depois, é só<br>
                             R$ 19,90/mês. <u>Sujeito a Termos e<br>
-                            Condições.</u> Disponível apenas para quem<br> 
+                                Condições.</u> Disponível apenas para quem<br>
                             nunca usou o Premium. A oferta termina em <br>
                             31/12/2022.</p>
-                        </div>
+                    </div>
                 </div>
 
                 <div class="coluna segunda-coluna">
@@ -189,40 +180,35 @@
                         <h4 class="bloco-branco">Pagamento único disponível</h4>
                         <h3 class="plano-qtd-pessoas">Duo</h3>
                         <p class="preco-planos">R$ 24,90/mês após o período <br>da oferta<br>
-                        2 contas</p>
+                            2 contas</p>
                         <hr>
                     </div>
 
                     <div class="segundacaixa">
                         <ul class="seta">
                             <li>&#10003;</li>
-                            <li>&#10003;</li> 
+                            <li>&#10003;</li>
                             <li>&#10003;</li>
                         </ul>
                     </div>
                     <div class="segundacaixa">
                         <ul class="elemento-lista">
-                            <li>
-                                2 contas Premium para<br> pessoas que moram juntas
-                            </li>
 
-                            <li>
-                                Música sem anúncios, no<BR> modo offline e na ordem<br>
-                                que você quiser
-                            </li>
+                            <li>2 contas Premium para<br> pessoas que moram juntas</li>
 
-                            <li>
-                                Faça um plano pré-pago ou<br> uma assinatura
-                            </li>
+                            <li>Música sem anúncios, no<BR> modo offline e na ordem<br>que você quiser</li>
+
+                            <li>Faça um plano pré-pago ou<br> uma assinatura</li>
+
                         </ul>
                     </div>
-                    
+
 
                     <div class="terceiracaixa">
                         <button class="botao-padrao comeceagora"> comece agora </button>
 
                         <p class="paragrafo-final"><u>Sujeito a Termos e Condições.</u> O mês grátis<br>
-                            não está disponível para usuários que já<br> usaram o Premium.
+                            não está disponível para usuários que já<br> usaram o Premium.</p>
                     </div>
                 </div>
 
@@ -232,50 +218,50 @@
                         <h4 class="bloco-branco">Pagamento único disponível</h4>
                         <h3 class="plano-qtd-pessoas">Família</h3>
                         <p class="preco-planos">R$ 34,90/mês após o período<br> da oferta<br>
-                        Até 6 contas</p>
+                            Até 6 contas</p>
                         <hr>
                     </div>
 
-                        <div class="segundacaixa">
-                            <ul class="seta ">
-                                <li>&#10003;</li>
+                    <div class="segundacaixa">
+                        <ul class="seta ">
+                            <li>&#10003;</li>
 
-                                <li>&#10003;</li> 
+                            <li>&#10003;</li>
 
-                                <li>&#10003;</li>
+                            <li>&#10003;</li>
 
-                                <li class="seta-terceiracoluna">&#10003;</li>
+                            <li class="seta-terceiracoluna">&#10003;</li>
 
-                                <li class="seta-terceiracoluna">&#10003;</li>
-                            </ul>
-                        </div>
+                            <li class="seta-terceiracoluna">&#10003;</li>
+                        </ul>
+                    </div>
 
-                        <div class="segundacaixa">
-                            <ul class="elemento-lista">
-                                <li>
-                                    6 contas Premium para<br> familiares que moram no<br>
-                                    mesmo endereço
-                                </li>
+                    <div class="segundacaixa">
+                        <ul class="elemento-lista">
+                            <li>
+                                6 contas Premium para<br> familiares que moram no<br>
+                                mesmo endereço
+                            </li>
 
-                                <LI>
-                                    Bloqueie músicas com<br>conteudo explícito
-                                </LI>
+                            <LI>
+                                Bloqueie músicas com<br>conteudo explícito
+                            </LI>
 
-                                <li>
-                                    Música sem anúncios, no<br>modo offline e na ordem<br> 
-                                    que voê quiser
-                                </li>
+                            <li>
+                                Música sem anúncios, no<br>modo offline e na ordem<br>
+                                que voê quiser
+                            </li>
 
-                                <li>
-                                    Spotify Kids: um app<br> separado, feito<br>especialmente para<br>
-                                    crianças
-                                </li>
+                            <li>
+                                Spotify Kids: um app<br> separado, feito<br>especialmente para<br>
+                                crianças
+                            </li>
 
-                                <li>
-                                    Faça um plano pré-pago ou<br>uma assinatura
-                                </li>
-                            </ul>
-                        </div>
+                            <li>
+                                Faça um plano pré-pago ou<br>uma assinatura
+                            </li>
+                        </ul>
+                    </div>
 
                     <div class="terceiracaixa">
                         <button class="botao-padrao comeceagora"> comece agora </button>
@@ -290,50 +276,50 @@
                         <h4 class="bloco-azul">1 mês grátis ao assinar</h4>
                         <h3 class="plano-qtd-pessoas">Universitário</h3>
                         <p class="preco-planos">R$ 9,90/mês após o período da <br>oferta<br>
-                        1 conta</p>
+                            1 conta</p>
                         <hr>
                     </div>
 
-                        <div class="segundacaixa">
-                            <ul class="seta">
-                                <li>&#10003;</li>
+                    <div class="segundacaixa">
+                        <ul class="seta">
+                            <li>&#10003;</li>
 
-                                <li>&#10003;</li> 
+                            <li>&#10003;</li>
 
-                                <li>&#10003;</li>
+                            <li>&#10003;</li>
 
-                                <li>&#10003;</li>
-                            </ul>
-                        </div>
+                            <li>&#10003;</li>
+                        </ul>
+                    </div>
 
-                        <div class="segundacaixa">
-                            <ul class="elemento-lista">
-                                <li> Desconto especial para<br> estudantes universitários<br>
-                                     elegíveis
-                                </li>
+                    <div class="segundacaixa">
+                        <ul class="elemento-lista">
+                            <li> Desconto especial para<br> estudantes universitários<br>
+                                elegíveis
+                            </li>
 
-                                <li>
-                                    Ouça músicas sem<BR> anúncios
-                                </li>
+                            <li>
+                                Ouça músicas sem<BR> anúncios
+                            </li>
 
-                                <li>
-                                    Ouça em qualquer lugar-<br>
-                                    até quando estiver offline
-                                </li>
+                            <li>
+                                Ouça em qualquer lugar-<br>
+                                até quando estiver offline
+                            </li>
 
-                                <li>
-                                    Ouça músicas na ordem<br>que quiser<br>
-                                </li>
-                            </ul>
-                        </div>
+                            <li>
+                                Ouça músicas na ordem<br>que quiser<br>
+                            </li>
+                        </ul>
+                    </div>
 
                     <div class="terceiracaixa">
                         <button class="botao-padrao comeceagora"> comece agora </button>
 
                         <p class="paragrafo-final"> Oferta disponível somente para estudantes<br>
-                        de instituições de ensino superior<br>credenciadas. o mês grátis não está<br>disponível
-                        para usuários que já<br>experimentaram o Premium. <u>Sujeito aos<br>
-                            Termos e Condições</u> da oferta do Spotify de<br>desconto para universitários.
+                            de instituições de ensino superior<br>credenciadas. o mês grátis não está<br>disponível
+                            para usuários que já<br>experimentaram o Premium. <u>Sujeito aos<br>
+                                Termos e Condições</u> da oferta do Spotify de<br>desconto para universitários.
                     </div>
                 </div>
             </div>
@@ -344,7 +330,7 @@
         <div class="container-rodape">
             <ul>
                 <li class="logo-rodape">
-                    
+
                     <img src="imagens/logo-topo.png">
                 </li>
 
@@ -401,7 +387,7 @@
                         <li><a href="">Aplicativo móvel grátis</a></li>
                     </ul>
                 </li>
-            
+
                 <li class="redes">
                     <ul>
                         <li>
@@ -410,7 +396,7 @@
                                 </span>
                             </a>
                         </li>
-                        
+
 
                         <li>
                             <a href="https://www.twitter.com/spotify/">
@@ -430,11 +416,11 @@
 
                 <li class="linha-final">
                     <ul>
-                    <li><a href="">Legal</a></li>
-                    <li><a href="">Centro de Privacidade</a></li>
-                    <li><a href="">Política de Privacidade</a></li>
-                    <li><a href="">Cookies</a></li>
-                    <li><a href="">Sobre anúncios</a></li>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Centro de Privacidade</a></li>
+                        <li><a href="">Política de Privacidade</a></li>
+                        <li><a href="">Cookies</a></li>
+                        <li><a href="">Sobre anúncios</a></li>
                     </ul>
                 </li>
 
@@ -442,21 +428,36 @@
                     <ul>
                         <li class="brasil">
                             <img class="simbolo" src="imagens/world.svg" width="12" height="13">
-                            Brasil</li>
+                            Brasil
+                        </li>
                         <li>&copy; 2022 Spotify AB</li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div><!--/footer-->
-            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-                integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-                crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+        <script>
+            const btn = document.querySelector('.btn-menu');
+            if (btn) {
+                btn.addEventListener('click', () => {
+                    if (document.body.classList.contains('active')) {
+                        document.body.classList.remove('active');
+                    } else {
+                        document.body.classList.add('active');
+                    }
+                });
+            }
+        </script>
 </body>
+
 </html>
