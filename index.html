@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/icons.css">
 
@@ -14,8 +17,8 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand navbar-black fixed-top"><!--Navegação-->
-            <div class="container"><!--Container-Nav-->
+        <div class="container-fluid d-flex"><!--Container-Nav-->
+            <nav class="navbar navbar-expand fixed-top"><!--Navegação-->
                 <a class="navbar-brand" href="#">
                     <img class="logo" src="imagens/logo-topo.png">
                 </a>
@@ -27,60 +30,65 @@
 
                 <div class="navbar-collapse collapse listas-padrao topo menu" id="nav-principal">
                     <div class="navbar-menu justify-content-start">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="nav-link"><span class="nav1">Premium</span></a></li>
+                        <ul class="navbar-nav list-unstyled">
+                            <li class="nav-item"><a href="#" class="nav-link">Premium</a></li>
 
                             <li class="nav-item"><a href="#" class="nav-link nav2">Suporte</a></li>
 
                             <li class="nav-item"><a href="#" class="nav-link nav3">Baixar</a></li>
 
-                            <li class="nav-item bg-success divisor"></li>
+                            <li class="nav-item divisor"></li>
 
                             <li class="nav-item"><a href="#" class="nav-link">Inscrever-se</a></li>
 
-                            <li class="nav-item"><a href="." class="nav-link">Entrar</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Entrar</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-            </div><!--/Container-Nav-->
-        </nav><!--/Navegação-->
+                </div><!--/Container-Nav-->
+            </nav><!--/Navegação-->
+        </div><!--/Container-Nav-->
     </header>
 
-    <div class="conteudo-principal"><!--Conteúdo Principal-->
-        <div class="container">
-            <div class="bloco-rosa titulo paragrafo-medio">
+    <section class="bloco-rosa">
+        <div class="container-fluid d-flex"><!--container-->
+            <div class="conteudo-principal"><!--Conteúdo Principal-->
+                    <div class="titulo"><!--bloco rosa-->
+                        <div class="row"><!--row-bloco rosa-->
+                            <div class="col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 paragrafo-medio h2-blocorosa">
+                                        <h2>R$ 0,00 por 3 meses de Premium</h2>
+                                        <p>
+                                            Curta músicas sem anúncios, ouça no modo offline e<br> muito mais.
+                                            Cancele quando quiser.
+                                        </p>
+                                    <div class="botoes-inicio">
+                                            <button class="botao-padrao">experimente 3 meses por r$ 0,00</button>
 
-                <div>
-                    <h2>R$ 0,00 por 3 meses de Premium</h2>
-                </div>
+                                            <button class="botao-padrao botaorosa">ver planos</button>
+                                        </div>
+                                        <div class="paragrafo-pequeno">
+                                            <p>Somente no plano Individual. Depois, é só R$ 19,90/mês. <u>Sujeito a Termos e Condições.</u>
+                                                Disponível apenas para<br> quem nunca usou o Premium. A oferta termina em 31/12/2022.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div><!--/bloco rosa-->         
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="banner"><img src="imagens/banner.jpeg"></div>
+                                </div>
+                            </div>
+                        </div><!--/row-bloco rosa-->
 
-                <div>
-                    <p>
-                        Curta músicas sem anúncios, ouça no modo offline e muito mais.
-                        Cancele quando quiser.
-                    </p>
-                </div>
+            </div><!--/Conteúdo Principal-->
+        </div><!--container-->
+    </section>
 
-                <div class="botoes-inicio">
-
-                    <button class="botao-padrao">experimente 3 meses por r$ 0,00</button>
-
-                    <button class="botao-padrao botaorosa">ver planos</button>
-
-                </div>
-
-                <div class="paragrafo-pequeno">
-                    <p>Somente no plano Individual. Depois, é só R$ 19,90/mês. <u>Sujeito a Termos e Condições.</u>
-                        Disponível apenas para quem nunca usou o Premium. A oferta termina em 31/12/2022.</p>
-                </div>
-
-            </div>
-
-            <div class="banner"><img src="imagens/banner.jpeg"></div>
-
-        </div>
-    </div><!--/Conteúdo Principal-->
     <div class="porque-premium"><!--PorqueSerPremium-->
         <div class="bloco-dois">
             <h2>Por que ser Premium?</h2>
