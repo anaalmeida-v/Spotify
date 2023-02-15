@@ -122,11 +122,6 @@ header{
     background-color: #df0c8b;
 }
 
-.banner{
-    margin-right: 10em;
-}
-
-
 .titulo h2 {
     padding-top: 40px;
     padding-bottom: 20px;
@@ -161,6 +156,7 @@ header{
 */
 .bloco-dois {
     background: #fff;
+    align-items: center;
 }
 
  .botaorosa{
@@ -213,7 +209,7 @@ header{
 */
 
 .container-bloco-tres{
-    background-color: #efefef;
+    width: 100%;
 }
 
 .bloco-tres h2{
@@ -230,8 +226,7 @@ header{
 }
 
 .bloco-tres .marcas{
-    margin-left: 550px;
-    display: inline-block;
+    text-align: center;
     line-height: 100px;
 } 
 
@@ -285,7 +280,6 @@ header{
 
 .primeiracaixa {
     padding-top: 16px;
-    display: block;
     width: 269px;
     height: 200px;
     background-color: #fff;
@@ -295,47 +289,48 @@ header{
 .segundacaixa{
     min-height: 180px;
     padding-top: 20px;
-    display: block;
     width: 269px;
     background-color: #fff;
-}
-
-.segundacaixa{
     padding-top: 16px;
     height: 364px;
-    float: left;
-    width: 20%;
+    border: none;
 }
 
 .segundacaixa .seta li{
-    display: block;
     margin-left: 16px;
-    height: 55px;
 }
 
-.segundacaixa .elemento-lista li{
-    display: inline-block;
+.segundacaixa .elemento-lista li {
+    width: 100%;
     font-family: 'CircularStd-light';
     line-height: 18px;
     font-size: 14px;
+    padding-left: 30px;
+    position: relative;
 }
 
-.seta {
-    float: left;
-    width: 60px;
-}
-
-.seta-terceiracoluna{
-    line-height: 98px;
+.segundacaixa .elemento-lista li .check{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 8px;
 }
 
 .elemento-lista {
+    border: none;
     line-height: 44px;
     word-spacing: 1px;
-    float: left;
-    width: 200px;
-    text-align: left;
 }
+
+.seta {
+    width: 55px;
+    line-height: 55px;
+}
+
+.seta-terceiracoluna{
+    line-height: 90px;
+}
+
 
 .terceiracaixa{
     width: 269px;
@@ -358,14 +353,12 @@ header{
 
 .coluna {
     padding-bottom: 120px;
-    margin-left: 10px;
-    background-color: #efefef;
-    display: inline-block;
     vertical-align: top;
 }
 
 .primeira-coluna{
-    margin-left: 100px;
+    margin-left: 0;
+    width: 100%;
 }
 
 /*
@@ -577,7 +570,32 @@ header{
         color: #ccc; 
         padding: 0;
     }
+
+   .coluna{
+    margin-left: 10em;
+   }
+
+   .primeiracaixa{
+    margin-left: 1em;
+   }
+   .paragrafo-final{
+    margin-left: 1em;
+   }
+   .comeceagora{
+    margin-left: 5px;
+   }
+}
+
+@media (max-width: 977px) {
+
+    .comeceagora{
+        margin-left: 0%;
     }
+
+    .primeira-coluna, .segunda-coluna, .terceira-coluna, .quarta-coluna{
+        margin-left: 6em;
+    }
+}
     .fa-1x {
         font-size: 1.5rem;
     }
