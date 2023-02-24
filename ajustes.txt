@@ -1,0 +1,17 @@
+feitos
+
+menu
+- Menu mudar para responsivo na resolução 992 
+
+bloco rosa
+1366 ~ 992
+- Margin bottom no botão
+- Ajustar o corte do texto na coluna da esquerda
+- Ajustar o BR que quebra o paragráfo
+
+planos
+- Box's de planos com padding bottom grande abaixo de 575
+- Arrumar margins extras na seção de planos
+
+footer
+- Ajustar ul's do footer. Não pode ter div dentro de ul e evitar redundância
